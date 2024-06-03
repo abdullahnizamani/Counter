@@ -10,7 +10,7 @@ namespace Project1
 
         private void btnCount_Click(object sender, EventArgs e)
         {
-            a++ 1;
+            a+= 1;
             lblCount.Text =Convert.ToString(a);
         }
     }
